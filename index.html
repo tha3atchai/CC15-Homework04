@@ -70,6 +70,11 @@
             justify-content: space-between;
         }
 
+        .loading_percent--number {
+            display: flex;
+            justify-content: space-between;
+        }
+
         .content button {
             color: dimgray;
             padding: 6px 10px;
@@ -120,8 +125,10 @@
             <p>SITE NEARLY READY</p>
             <progress class="loading_percent" value="70" max="100">
             </progress>
+            <div class="loading_percent--number">
                 <p>0%</p>
                 <p>100%</p>
+            </div>
         </div>
         <button>Notify Me!</button>
         <div class="logo">
