@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework#4 Under Construction Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            height: 100vh;
+            background-image: url("https://picsum.photos/id/922/1600/760");
+        }
+        nav {
+            display: flex;
+            justify-content: end;
+            width: 80vw;
+            margin-top: 8px;
+        }
+        
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+        
+        .content {
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            height: 60vh;
+            align-items: center;
+            text-align: center;
+        }
+
+        .content h1 {
+            font-size: 50px;
+            font-weight: 400;
+        }
+
+        .loading_bar {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .loading_bar > p:first-of-type {
+            font-size: .8rem;
+            letter-spacing: 2px;
+            margin: 10px;
+        }
+
+        .loading {
+            background-color: #ffffff;
+            height: 10px;
+            width: 250px;
+        }
+
+        .loading_percent {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .content button {
+            color: dimgray;
+            padding: 6px 10px;
+            border-radius: 4px;
+            border: none;
+        }
+
+        .logo {
+            display: flex;
+        }
+        
+        .logo i {
+            display: flex;
+            width: 32px;
+            height: 32px;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid #ffffff;
+            border-radius: 50%;
+            font-size: 1.5rem;
+            margin: 0px 4px;
+        }
+
+        footer {
+            color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+
+        hr {
+            width: 80vw;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#">Home</a>
+    </nav>
+    <div class="content">
+        <h1>UNDER<br>
+        CONSTRUCTION
+        </h1>
+        <div class="loading_bar">
+            <p>SITE NEARLY READY</p>
+            <progress class="loading_percent" value="70" max="100">
+            </progress>
+                <p>0%</p>
+                <p>100%</p>
+        </div>
+        <button>Notify Me!</button>
+        <div class="logo">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+            <i class="fa-solid fa-envelope"></i>
+        </div>
+    </div>
+    <footer>
+        <hr />
+        <p>&#64; 2023 by Under Construction.</p>
+    </footer>
+</body>
+</html>
